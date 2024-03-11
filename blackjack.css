@@ -1,0 +1,90 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #216c25;
+    opacity: 0.9;
+    background-image: radial-gradient(circle at center center, #91f971, #216c25), repeating-radial-gradient(circle at center center, #91f971, #91f971, 8px, transparent 16px, transparent 8px);
+    background-blend-mode: multiply;
+    overflow: hidden;
+  }
+  
+  h2{
+    color: #999;
+  }
+  
+  #dealer-cards img {
+    height: 200px;
+    width: 150px;
+    margin: 1px;
+    border-radius: 5%;
+  }
+  
+  #your-cards img {
+    height: 200px;
+    width: 150px;
+    margin: 1px;
+    border-radius: 5%;
+  }
+  
+  #another_c {
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+  }
+  
+  #stop {
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+  }
+  
+  #restart {
+    width: 120px;
+    height: 70px;
+    font-size: 25px;
+  }
+  
+  button {
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    margin-top: 30px;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  #hidden{
+    border-radius: 5%;
+  }
+  
+  #betting {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    height: 200px;
+    width: 300px;
+    box-shadow: rgb(39, 43, 48) 0px 20px 30px -10px;
+    background-color: #e5e5f7;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  #betAmount{
+  
+    width: 150px;
+  }

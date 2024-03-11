@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="blackjack.css">
+    <script src="blackjack.js"></script>
+</head>
+<body>
+    <h2>Bankéř: <span id="dealer-sum"></span></h2>
+
+    <div id="dealer-cards">
+        <img id="hidden" src="C:/Users/tadys/OneDrive/Plocha/programko/html/Black-Jack/cards/BACK.png">
+    </div>
+
+    <b><p id="results"></p></b>
+
+    <h2>Vy: <span id="your-sum"></span></h2>
+
+    <div id="your-cards"></div>
+
+    <br>
+
+    <div id="betting">
+        <p><b>Zůstatek: <span id="playerMoney">1000</span> Dublonů</b></p>
+        <input type="number" id="betAmount" placeholder="Vložte sázku" min="1" oninput="validity.valid||(value='');">
+    
+        <p>maximální sázka 1000.</p>
+        
+        <button id="placeBet">Uzavřít sázky</button>
+    </div>
+
+    <button id="another_c">Další</button>
+
+    <button id="restart">Hrát znovu</button>
+   
+    <button id="stop">Stop</button>
+</body>
+</html>
